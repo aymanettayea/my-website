@@ -1,0 +1,136 @@
+body {
+    background-image: url(../les\ image\ et\ video\ et\ son/project1/c.jpeg);
+    color: white;
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;
+}
+
+h1 {
+    text-transform: capitalize;
+    font-style: italic;
+    font-size: 2.5rem;
+    margin-top: 35px;
+    margin-left: 90px;
+    color: rgba(255, 255, 255, 0.742);
+    animation-name: ha;
+}
+
+nav {
+    display: flex;
+    flex-wrap: wrap;
+    padding: 20px;
+    justify-content: center;
+    align-items: center;
+    margin-top: -6%;
+}
+
+nav ul {
+    list-style-type: none;
+    display: flex;
+    gap: 50px;
+}
+
+a {
+    list-style-type: none;
+    color: white;
+    text-decoration: none;
+    font-weight: bold;
+    font-size: 1rem;
+    text-transform: capitalize;
+
+}
+
+a:hover {
+    text-decoration: underline;
+    color: goldenrod;
+    font-size: 1.5rem;
+}
+
+nav button {
+    align-self: flex-end;
+    position: absolute;
+    left: 90%;
+    top: 8%;
+    background-image: url(../les\ image\ et\ video\ et\ son/project1/c.jpeg);
+    color: white;
+    width: 8%;
+    border: 1px solid white;
+    border-radius: 9PX;
+}
+
+nav button:hover {
+    font-size: 1.5rem;
+    width: 9%;
+    color: rgb(135, 135, 135);
+    background-color: white;
+}
+
+#img {
+    width: 250px;
+    height: 300px;
+    margin-left: 5%;
+    border: 1px black solid;
+    border-radius: 9px;
+    box-shadow: 2px 2px 2px 2px rgb(33, 6, 6);
+    float: left;
+}
+
+#img:hover {
+    width: 260px;
+    height: auto;
+}
+
+h5 {
+    margin-left: 35%;
+    color: goldenrod;
+    word-spacing: 0cm;
+    font-weight: 600;
+    text-decoration: underline;
+    text-shadow: 1px 1px 1px 1px goldenrod;
+    font-size: 1rem;
+}
+
+#lo {
+    text-decoration: line-through;
+}
+
+h2 {
+    font-size: 5rem;
+    margin-left: 35%;
+    margin-top: 50px;
+}
+
+p {
+    margin-left: 35%;
+    margin-top: -30px;
+}
+
+.order button {
+    background-color: gold;
+    width: 8%;
+    border: 1px solid white;
+    border-radius: 9PX;
+    margin-left: 40%;
+    margin-top: 20px;
+}
+
+.order button:hover {
+    width: 9%;
+    color: rgb(42, 42, 42);
+    background-color: rgb(251, 255, 0);
+    transform: translateX(right);
+}
+
+.order p {
+    font-size: 1rem;
+    position: absolute;
+    top: 70%;
+    left: 40%;
+    word-spacing: 9px;
+}
+
+.a {
+    border-left: 2px solid goldenrod;
+    color: goldenrod;
+}
