@@ -1,0 +1,108 @@
+* {
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;
+}
+
+/* body{
+    /* background-image: url(../les\ image\ et\ video\ et\ son/project6/bg.jpg);
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-attachment: fixed; */
+nav {
+    display: flex;
+}
+
+nav ul {
+    display: flex;
+    justify-content: space-between;
+    list-style-type: none;
+    gap: 90px;
+    margin-top: 20px;
+    margin-left: 150px;
+}
+
+i {
+    margin-left: 80px;
+    margin-top: 24px;
+}
+
+nav a {
+    text-decoration: none;
+    color: rgb(0, 0, 0);
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+    font-size: large;
+    transition: 1s;
+}
+a:hover{
+    color: rgb(0, 0, 0);
+    background-color: #ff4800;
+    padding: 10px;
+    border-radius: 15px;
+}
+h1{
+    margin-left: 20px;
+}
+#img{
+    width: 500px;
+    margin-left: 20px;
+    border-radius: 20px;
+   transition: 1s;
+    float: left;
+}
+.container{
+    display: flex;
+   gap: 20px;
+}
+.container img{
+    width: 150px;
+    border-radius:20px ;
+    margin-top: 20px;
+    margin-left: 20px;
+    transition: 1s;
+}
+.container img:hover,#img:hover{
+    box-shadow: #ff4800 2px 2px 2px 2px;
+}
+.text h6,p,h2,h4,button,.sold{
+    /* margin-left: 60%;
+    margin-top: 10px; */
+    position: relative;
+    left: 9%;
+   top: 90px;
+}
+h6{
+    color: gray;
+    font-size: small;
+    font-family: 'Times New Roman', Times, serif;
+}
+h2{
+    font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+    font-size: xx-large;
+    font-weight: 900px;
+}
+.por{
+    background-color: #000000;
+    color: white;
+    padding-inline: 9px;
+    border-radius: 13px;
+}
+.sold{
+    text-decoration: line-through;
+}
+#button{
+    border: #ff4800 2px solid ;
+    border-radius: 20px;
+    padding: px;
+    width: 200px;
+    background-color: #ff4800;
+    position: relative;
+    left: 25%;
+    top: 99px;
+    transition: 1s;
+}
+#button:hover{
+    background-color: #000000;
+    color: #ff4800;
+}
